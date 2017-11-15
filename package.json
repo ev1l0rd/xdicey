@@ -1,0 +1,23 @@
+{
+  "name": "xdicey",
+  "version": "1.0.0",
+  "description": "Throws an x sided dice y amount of times",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ev1l0rd/xdicey.git"
+  },
+  "author": "Valentijn <contact@ev1l0rd.info> (http://ev1l0rd.info)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ev1l0rd/xdicey/issues"
+  },
+  "homepage": "https://github.com/ev1l0rd/xdicey#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
