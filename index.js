@@ -4,7 +4,7 @@
  * @param amountOfSides Amount of sides the dice has
  * @return The total sum of every result the dice has
  */
-module.exports = function throwDice(amountOfRolls, amountOfSides) {
+module.exports = function(amountOfRolls, amountOfSides) {
 	let totalAmount;
 	let result = [];
 	for (let i = 1; i <= amountOfRolls; i++) {
