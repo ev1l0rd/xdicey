@@ -1,6 +1,6 @@
 {
   "name": "xdicey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Throws an x sided dice y amount of times",
   "main": "index.js",
   "scripts": {
