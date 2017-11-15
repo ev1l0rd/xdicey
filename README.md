@@ -27,4 +27,4 @@ variable = dice(x,y);
 
 `x` is the amount of times the die should be thrown. `y` is the amount of sides the die has.
 
-The module will return the total sum of all dice thrown.
+The module will return a collection. The keys in the collection are total, which is the sum of all dice thrown and individual which is an array containing the individual results.
