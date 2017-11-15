@@ -17,11 +17,17 @@
 * /
 /*
  * Throws an x sided dice y amount of times
- * @param amountOfRolls Amount of times to throw the dice
- * @param amountOfSides Amount of sides the dice has
- * @return The total sum of every result the dice has
+ * @param y Amount of times to throw the dice
+ * @param x Amount of sides the dice has
+ * @return A collection. The collection contains a total key and a individual key. The total key is the sum of all dice
+ * thrown and the individual key is an array with the results of each individual die.
  */
-module.exports = function(amountOfRolls, amountOfSides) {
+module.exports = function(y, x) {
+	let amountOfRolls = Math.abs(y);
+	let amountOfSides = Math.abs(x);
+	if (amountOfSides === 0) return "You tried to throw a 0 sided die. 0 sided dies do not exist.";
+	if (amountOfRolls === 0) return "You are rolling 0 times. That is not possible.";
+
 	let totalAmount;
 	let result = [];
 	for (let i = 1; i <= amountOfRolls; i++) {
@@ -44,5 +50,8 @@ module.exports = function(amountOfRolls, amountOfSides) {
 		return a + b;
 	}
 
-	return totalAmount;
+	return {
+		individual: result,
+		total: totalAmount
+	};
 };
