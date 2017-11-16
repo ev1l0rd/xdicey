@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02af5b1c-3f13-496d-8700-9058cdc5bade" name="Default" comment="Minor README.md correction [ci-skip]">
+    <list default="true" id="02af5b1c-3f13-496d-8700-9058cdc5bade" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test.js" afterPath="$PROJECT_DIR$/test/test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,21 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="159">
+              <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="476">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,9 +113,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/test/test.js" />
       </list>
     </option>
   </component>
@@ -227,7 +227,7 @@
       <workItem from="1510785213664" duration="9000" />
       <workItem from="1510785394968" duration="4893000" />
       <workItem from="1510822607980" duration="66000" />
-      <workItem from="1510824173401" duration="56000" />
+      <workItem from="1510824173401" duration="675000" />
     </task>
     <task id="LOCAL-00001" summary="Add readme + license [ci-skip]">
       <created>1510765486831</created>
@@ -257,13 +257,17 @@
       <option name="project" value="LOCAL" />
       <updated>1510790188158</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lowered required node version">
+      <created>1510824334177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1510824334177</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="throwDice - 2017.11.16 at 00h 17m 11s.xml">
-      <configuration name="throwDice" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="throwDice - 2017.11.16 at 00h 17m 29s.xml">
       <configuration name="throwDice" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -291,9 +295,12 @@
     <history-entry file="throwDice - 2017.11.16 at 00h 52m 54s.xml">
       <configuration name="throwDice" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="throwDice - 2017.11.16 at 10h 34m 08s.xml">
+      <configuration name="throwDice" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9526000" />
+    <option name="totallyTimeSpent" value="10145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,7 +319,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33717105" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33717105" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122023806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -338,7 +345,8 @@
     <MESSAGE value="Big code rewrite, version 2.0&#10;&#10;Introduces the following breaking changes:&#10;- The module now returns a Collection instead of simply the sum. The&#10;collection has two keys: total and individual. total is the sum of all&#10;dice thrown while individual is an array containing the values of each&#10;individual throw.&#10;- Sanity checking is now implemented. Throwing a 0 sided die 0 times no &#10;longer needs to be checked by your own program. If a 0 sided die is&#10;thrown the program returns a String.&#10;&#10;Small changes:&#10;- Added a couple new unit tests to check for total and individual.&#10;- Added two unit test to check if throwing 0 works." />
     <MESSAGE value="Big code rewrite, version 2.0&#10;&#10;Introduces the following breaking changes:&#10;- The module now returns a Collection instead of simply the sum. The&#10;collection has two keys: total and individual. total is the sum of all&#10;dice thrown while individual is an array containing the values of each&#10;individual throw.&#10;- Sanity checking is now implemented. Throwing a 0 sided die 0 times no &#10;longer needs to be checked by your own program. If a 0 sided die is&#10;thrown the program returns a String.&#10;&#10;Small changes:&#10;- Added a couple new unit tests to check for total and individual.&#10;- Added two unit test to check if throwing 0 works.&#10;- Added a couple of shields to README.md&#10;- Rewrote usage and examples." />
     <MESSAGE value="Minor README.md correction [ci-skip]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor README.md correction [ci-skip]" />
+    <MESSAGE value="Lowered required node version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lowered required node version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -717,14 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -764,8 +764,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
           <folding />
         </state>
       </provider>

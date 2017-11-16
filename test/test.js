@@ -36,15 +36,15 @@ describe("throwDice", function () {
 			})
 		});
 		describe("#throw2d4", function () {
-			it("should return an array of 1 value", function () {
+			it("should return an array of 2 values", function () {
 				let result = xdicey(2, 4).individual;
 				expect(result).to.be.an("array").and.to.have.lengthOf(2);
 			})
 		});
 		describe("#throw4d20", function () {
-			it("should return an array of 1 value", function () {
-				let result = xdicey(4, 20).individual;
-				expect(result).to.be.an("array").and.to.have.lengthOf(4);
+			it("should return an array of 40 values", function () {
+				let result = xdicey(40, 20).individual;
+				expect(result).to.be.an("array").and.to.have.lengthOf(40);
 			})
 		});
 	});
