@@ -23,35 +23,18 @@
  * thrown and the individual key is an array with the results of each individual die.
  */
 module.exports = function(y, x) {
-	let amountOfRolls = Math.abs(y);
-	let amountOfSides = Math.abs(x);
-	if (amountOfSides === 0) return "You tried to throw a 0 sided die. 0 sided dies do not exist.";
-	if (amountOfRolls === 0) return "You are rolling 0 times. That is not possible.";
+    if (amountOfSides === 0) return "You tried to throw a 0 sided die. 0 sided dies do not exist.";
+    if (amountOfRolls === 0) return "You are rolling 0 times. That is not possible.";
 
-	let totalAmount;
-	let result = [];
-	for (let i = 1; i <= amountOfRolls; i++) {
-		let arrayVal = i - 1;
-		let min = Math.ceil(1);
-		let max = Math.floor(amountOfSides);
-		result[arrayVal] = Math.floor(Math.random() * (max - min + 1)) + min;
-	}
+    let result = [];
+    for (let i = 1; i <= Math.abs(y); i++) {
+        result[i - 1] = Math.floor(Math.random() * Math.floor(Math.abs(x))) + 1;
+    }
 
-	// Taken from https://stackoverflow.com/a/16751601/4666756
-	totalAmount = result.reduce(add, 0);
-	// Taken from https://stackoverflow.com/a/16751601/4666756
-	/*
-	 * Fancifies reduce in totalAmount a bit for more readable code.
-	 * @param a The existing amount.
-	 * @param b The amount to add.
-	 * @return The new amount.
-	 */
-	function add(a, b) {
-		return a + b;
-	}
+    let totalAmount = result.reduce((x, y) => x + y, 0);
 
-	return {
-		individual: result,
-		total: totalAmount
-	};
+    return {
+        individual: result,
+        total: totalAmount
+    };
 };
