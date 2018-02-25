@@ -23,8 +23,8 @@
  * thrown and the individual key is an array with the results of each individual die.
  */
 module.exports = function(y, x) {
-    if (amountOfSides === 0) return "You tried to throw a 0 sided die. 0 sided dies do not exist.";
-    if (amountOfRolls === 0) return "You are rolling 0 times. That is not possible.";
+    if (x === 0) return "You tried to throw a 0 sided die. 0 sided dies do not exist.";
+    if (y === 0) return "You are rolling 0 times. That is not possible.";
 
     let result = [];
     for (let i = 1; i <= Math.abs(y); i++) {
