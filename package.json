@@ -1,8 +1,10 @@
 {
   "name": "xdicey",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Throws an x sided dice y amount of times",
-  "keywords": ["dice"],
+  "keywords": [
+    "dice"
+  ],
   "engines": {
     "node": ">=8.0.0",
     "npm": ">=5.4.2"
